@@ -22,8 +22,8 @@ This script automates the process of sending a message to a list of phone number
 
 ## Usage
 1. **Prepare the Script**:
- -Ensure the app.py script is in the repository directory.
- -Modify the phone_numbers list in app.py if you need to add or change the phone numbers.
+	*Ensure the app.py script is in the repository directory.
+ 	*Modify the phone_numbers list in app.py if you need to add or change the phone numbers.
 
 2. **Run the Script**:
    ```bash
@@ -31,8 +31,8 @@ This script automates the process of sending a message to a list of phone number
 
 3. **Scan the QR Code**:
 
- -The script will open WhatsApp Web in a new Chrome window.
- -Scan the QR code with your phone to log in to WhatsApp Web.
+ *The script will open WhatsApp Web in a new Chrome window.
+ *Scan the QR code with your phone to log in to WhatsApp Web.
 
 4 **Automation**:
 
