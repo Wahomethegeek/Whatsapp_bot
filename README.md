@@ -17,24 +17,24 @@ This script automates the process of sending a message to a list of phone number
    cd <repository-directory>
 
 2.  **Install the required packages**:
-
+    ```bash
 	pip install -r requirements.txt
 
-Usage
-Prepare the Script:
+## Usage
+1. **Prepare the Script**:
+ -Ensure the app.py script is in the repository directory.
+ -Modify the phone_numbers list in app.py if you need to add or change the phone numbers.
 
-Ensure the app.py script is in the repository directory.
-Modify the phone_numbers list in app.py if you need to add or change the phone numbers.
-Run the Script:
+2. **Run the Script**:
+   ```bash
+   python3 app.py
 
-bash
-Copy code
-python app.py
-Scan the QR Code:
+3. **Scan the QR Code**:
 
-The script will open WhatsApp Web in a new Chrome window.
-Scan the QR code with your phone to log in to WhatsApp Web.
-Automation:
+ -The script will open WhatsApp Web in a new Chrome window.
+ -Scan the QR code with your phone to log in to WhatsApp Web.
+
+4 **Automation**:
 
 After logging in, the script will automatically send the message "RejectFinanceBill2024" to each phone number in the list.
 The script waits for 0.5 seconds between sending each message.
